@@ -1,7 +1,6 @@
 import java.util.Scanner;
-
-public class Contador {
-    public static void main(String[] args) {
+public class Main {
+  public static void main(String[] args) {
         Scanner terminal = new Scanner(System.in);
         System.out.println("Digite o primeiro parâmetro:");
         int parametroUm = terminal.nextInt(); // Lê o primeiro inteiro
@@ -28,7 +27,7 @@ public class Contador {
             System.out.println("Imprimindo o número " + i);
         }
     }
-	public class ParametrosInvalidosException extends Exception {
+	public static class ParametrosInvalidosException extends Exception {
     		public ParametrosInvalidosException(String mensagem) {
         		super(mensagem);
     		}
